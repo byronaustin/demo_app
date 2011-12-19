@@ -91,7 +91,11 @@ mode. With gems, use <tt>sudo gem install ruby-debug</tt>. Example:
 
   class WeblogController < ActionController::Base
     def index
+<<<<<<< HEAD
       @posts = Post.find(:all)
+=======
+      @posts = Post.all
+>>>>>>> cb3d79854a2acfb096f41d8be9130f8cf7e413e1
       debugger
     end
   end
@@ -139,7 +143,11 @@ To reload your controllers and models after launching the console run
 <tt>reload!</tt>
 
 More information about irb can be found at:
+<<<<<<< HEAD
 link:http://www.rubycentral.com/pickaxe/irb.html
+=======
+link:http://www.rubycentral.org/pickaxe/irb.html
+>>>>>>> cb3d79854a2acfb096f41d8be9130f8cf7e413e1
 
 
 == dbconsole
@@ -156,6 +164,13 @@ PostgreSQL and SQLite 3.
 The default directory structure of a generated Ruby on Rails application:
 
   |-- app
+<<<<<<< HEAD
+=======
+  |   |-- assets
+  |       |-- images
+  |       |-- javascripts
+  |       `-- stylesheets
+>>>>>>> cb3d79854a2acfb096f41d8be9130f8cf7e413e1
   |   |-- controllers
   |   |-- helpers
   |   |-- mailers
@@ -172,9 +187,12 @@ The default directory structure of a generated Ruby on Rails application:
   |   `-- tasks
   |-- log
   |-- public
+<<<<<<< HEAD
   |   |-- images
   |   |-- javascripts
   |   `-- stylesheets
+=======
+>>>>>>> cb3d79854a2acfb096f41d8be9130f8cf7e413e1
   |-- script
   |-- test
   |   |-- fixtures
@@ -188,11 +206,22 @@ The default directory structure of a generated Ruby on Rails application:
   |   |-- sessions
   |   `-- sockets
   `-- vendor
+<<<<<<< HEAD
+=======
+      |-- assets
+          `-- stylesheets
+>>>>>>> cb3d79854a2acfb096f41d8be9130f8cf7e413e1
       `-- plugins
 
 app
   Holds all the code that's specific to this particular application.
 
+<<<<<<< HEAD
+=======
+app/assets
+  Contains subdirectories for images, stylesheets, and JavaScript files.
+
+>>>>>>> cb3d79854a2acfb096f41d8be9130f8cf7e413e1
 app/controllers
   Holds controllers that should be named like weblogs_controller.rb for
   automated URL mapping. All controllers should descend from
@@ -237,8 +266,12 @@ lib
   the load path.
 
 public
+<<<<<<< HEAD
   The directory available for the web server. Contains subdirectories for
   images, stylesheets, and javascripts. Also contains the dispatchers and the
+=======
+  The directory available for the web server. Also contains the dispatchers and the
+>>>>>>> cb3d79854a2acfb096f41d8be9130f8cf7e413e1
   default HTML files. This should be set as the DOCUMENT_ROOT of your web
   server.
 

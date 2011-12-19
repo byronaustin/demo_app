@@ -2,4 +2,8 @@
 db/*.sqlite3
 log/*.log
 tmp/
+<<<<<<< HEAD
 vendor/ruby
+=======
+.sass-cache/
+>>>>>>> cb3d79854a2acfb096f41d8be9130f8cf7e413e1

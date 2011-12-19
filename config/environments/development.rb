@@ -3,7 +3,11 @@ DemoApp::Application.configure do
 
   # In the development environment your application's code is reloaded on
   # every request.  This slows down response time but is perfect for development
+<<<<<<< HEAD
   # since you don't have to restart the webserver when you make code changes.
+=======
+  # since you don't have to restart the web server when you make code changes.
+>>>>>>> cb3d79854a2acfb096f41d8be9130f8cf7e413e1
   config.cache_classes = false
 
   # Log error messages when you accidentally call methods on nil.
@@ -11,7 +15,10 @@ DemoApp::Application.configure do
 
   # Show full error reports and disable caching
   config.consider_all_requests_local       = true
+<<<<<<< HEAD
   config.action_view.debug_rjs             = true
+=======
+>>>>>>> cb3d79854a2acfb096f41d8be9130f8cf7e413e1
   config.action_controller.perform_caching = false
 
   # Don't care if the mailer can't send
@@ -22,5 +29,15 @@ DemoApp::Application.configure do
 
   # Only use best-standards-support built into browsers
   config.action_dispatch.best_standards_support = :builtin
+<<<<<<< HEAD
 end
 
+=======
+
+  # Do not compress assets
+  config.assets.compress = false
+
+  # Expands the lines which load the assets
+  config.assets.debug = true
+end
+>>>>>>> cb3d79854a2acfb096f41d8be9130f8cf7e413e1
